@@ -1,0 +1,8 @@
+version: "2"
+services:
+  simple_volt_website:
+    image: geekupvn/docker-phalcon:v3.0.1-DevLog
+    volumes:
+      - ./src:/var/www/phalcon
+    ports:
+      - 8080:80
