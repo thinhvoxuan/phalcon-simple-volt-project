@@ -5,4 +5,4 @@ services:
     volumes:
       - ./src:/var/www/phalcon
     ports:
-      - 8080:80
+      - 8081:80
